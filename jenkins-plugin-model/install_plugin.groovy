@@ -1,3 +1,4 @@
+// Manage Jenkins > Script Console > put below script and press run
 import jenkins.model.Jenkins;
 
 pm = Jenkins.instance.pluginManager
