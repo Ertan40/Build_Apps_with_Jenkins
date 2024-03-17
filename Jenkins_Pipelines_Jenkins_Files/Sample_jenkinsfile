@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    // Clone the Git repository's master branch
+                    // Clone the Git repository's main branch
                     def gitRepoUrl = 'https://github.com/Ertan40/Build_Apps_with_Jenkins.git'
 
                     checkout([$class: 'GitSCM', 
